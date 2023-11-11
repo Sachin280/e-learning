@@ -9,13 +9,14 @@ export default function Javascript() {
             <div className='d-flex flex-row '>
                 <div className='me-5 mb-2  ms-5 ps-3 '><button className='bt-border'>python</button></div>
                 <div className='me-5 mb-2 '><button className='bt-border'>Excel</button></div>
+                <div className='me-5 mb-2 '><button className='bt-border'>JavaScript</button></div>
                 <div className='me-5 mb-2 '><button className='bt-border'>Web Development</button></div>
                 <div className='me-5 mb-2 '><button className='bt-border'>Data Scince</button></div>
                 <div className='me-5 mb-2 '><button className='bt-border'>Amazon aws</button></div>
             </div>
             <div className="container-fluid react-border ">
                 <div>
-                    <h2 className>Expand your career opportunities with Python</h2>
+                    <h2 className>Expand your career opportunities with JavaScript</h2>
                     <p>Take one of Udemy’s range of Python courses and learn how to code using this incredibly useful language. Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. You’ll learn how to build everything from games to sites to apps. Choose from a range of courses that will appeal to </p>
                     <button className="btn-border fw-bold">Explore Python</button>
                 </div>

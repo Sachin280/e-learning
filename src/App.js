@@ -9,13 +9,15 @@ import Webdevelopment from './pages/web-development';
 import Excel from './pages/excel';
 import Datascince from './pages/data-scince';
 import Amazon from './pages/amazon-aws';
+import Goal from './pages/goal';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Banner />
-      <Amazon />
+      <Python />
+      <Goal />
       <Footer />
     </div>
   );
