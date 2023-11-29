@@ -22,8 +22,8 @@ export default function detail() {
           </div>
         </div>
         <div className="d-flex">
-          <p className="w-65"><a href>Read full story</a></p>
-          <p className="fs-6 text-center">Booz Allen Hamilton</p>
+          <p className="w-65"><a href="#">Read full story</a></p>
+          <p className="fs-6 w-30 text-center">Booz Allen Hamilton</p>
         </div>
       </div>
     </div>
@@ -41,8 +41,8 @@ export default function detail() {
           </div>
         </div>
         <div className="d-flex">
-          <p className="w-65"><a href>Read full story</a></p>
-          <p className="fs-6 text-center">Publicis Sapient</p>
+          <p className="w-65"><a href="#">Read full story</a></p>
+          <p className="fs-6 w-30 text-center">Publicis Sapient</p>
         </div>
       </div>
     </div>
@@ -52,7 +52,7 @@ export default function detail() {
           <div className="detail-text">
             To stay at the leading edge of IT innovation, your team needs to regularly reinvent its skillset. With Udemy Business, I can give my team the space to learn and take the initiative. It means we can produce higher quality work more quickly.
           </div>
-          <div className="detail-img">
+          <div className="detail-img text-center">
             <img src={detailimg3} alt className="detail" /><br /><br />
             <strong>Ismaeel Ameen</strong>
             <p>Head of Data Engineering
@@ -60,8 +60,8 @@ export default function detail() {
           </div>
         </div>
         <div className="d-flex">
-          <p className="w-65"><a href>Read full story</a></p>
-          <p className="fs-6 text-center">Robert Walters</p>
+          <p className="w-65"><a href="#">Read full story</a></p>
+          <p className="fs-6 w-30 text-center">Robert Walters</p>
         </div>
       </div>
     </div>
@@ -79,8 +79,8 @@ export default function detail() {
           </div>
         </div>
         <div className="d-flex">
-          <p className="w-65"><a href>Read full story</a></p>
-          <p className="fs-6 text-center">Steelcase</p>
+          <p className="w-65"><a href="#">Read full story</a></p>
+          <p className="fs-6 w-30 text-center">Steelcase</p>
         </div>
       </div>
     </div>
