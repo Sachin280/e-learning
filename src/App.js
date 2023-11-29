@@ -10,6 +10,8 @@ import Excel from './pages/excel';
 import Datascince from './pages/data-scince';
 import Amazon from './pages/amazon-aws';
 import Goal from './pages/goal';
+import Categray from './top catageray/top-categray';
+import Detail from './top catageray/detail';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Banner />
       <Python />
       <Goal />
+      <Categray />
+      <Detail />
       <Footer />
     </div>
   );

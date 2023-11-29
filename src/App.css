@@ -1,19 +1,21 @@
-.App{
+.App {
   background-color: white !important;
 }
 
 
-.feature{
+.feature {
   padding-left: 10px;
   font-size: large;
 }
-.input-field{
+
+.input-field {
   font-size: large;
   margin: 0 10px;
   width: 500px;
   border-radius: 50px;
 }
-.banner{
+
+.banner {
   background-color: white;
   width: 35%;
   position: absolute;
@@ -22,45 +24,55 @@
   left: 10%;
   padding-left: 10px;
 }
-.banner p{
+
+.banner p {
   font-size: 18px;
 }
+
 .banner2 {
   width: 95%;
   background-color: gainsboro;
 }
-.react-border{
+
+.react-border {
   border: 2px solid black;
   border-radius: 10px;
   width: 95%;
 }
-.btn-border{
+
+.btn-border {
   border: 1px solid black;
   background-color: white;
   color: black;
 }
-.bt-border{
+
+.bt-border {
   border: none;
   background-color: white;
 }
-.showtab-position{
+
+.showtab-position {
   position: absolute;
   top: 10%;
   background-color: red;
   /* display: block; */
 }
-.none{
+
+.none {
   display: none;
 }
-.img-width{
+
+.img-width {
   width: 10%;
 }
-.border-goal{
+
+.border-goal {
   border: 2px solid black;
   border-radius: 50px;
   height: 400px;
 }
-.circle{
+
+.circle {
   padding: 10px;
   background-color: gray;
   color: white;
@@ -68,12 +80,13 @@
 }
 
 
-.gallery{
+.gallery {
   width: 900px;
   display: flex;
   overflow-x: scroll;
 }
-.gallery div{
+
+.gallery div {
   width: 100%;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -81,30 +94,68 @@
   padding: 20px;
   flex: none;
 }
-.gallery div .img{
+
+.gallery div .img {
   width: 100%;
   /* filter: grayscale(100%); */
   transition: transform 0.5s;
 }
-body::-webkit-scrollbar{
+
+body::-webkit-scrollbar {
   display: none;
 }
-.gallery::-webkit-scrollbar{
+
+.gallery::-webkit-scrollbar {
   display: none;
 }
-.gallery-warp{
+
+.gallery-warp {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 10% auto;
 }
-#backBtn, #nextBtn{
+
+#backBtn,
+#nextBtn {
   width: 50px;
   cursor: pointer;
   margin: 40px;
 }
-.gallery div .img:hover{
+
+.gallery div .img:hover {
   /* filter: grayscale(0); */
   cursor: pointer;
   transform: scale(1.1);
+}
+
+.top-catagery {
+  margin: 20px;
+  width: auto;
+  max-width: 100%;
+  transition: 0.5s all;
+}
+
+.top-catagery:hover {
+  transform: scale(1.2);
+  zoom: 1;
+}
+.top{
+  width: 100%;
+  /* background-color: red; */
+}
+.detail {
+  width: 40%;
+  border-radius: 50%;
+}
+.detail-text{
+  width: 65%;
+  font-size: medium;
+}
+.detail-img{
+  text-align: center;
+  font-size: small;
+}
+.w-65{
+  width: 70%;
 }
