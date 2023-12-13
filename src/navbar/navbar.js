@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { NavLink, Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
@@ -47,7 +48,11 @@ export default function Navbar(props) {
             <Typography variant="h6" component="div">
               <img src={logo} alt='logo' style={{ width: "100px" }} />
             </Typography>
-            <div className='feature'>Categories</div>
+            <div className='feature'>
+            <Link to='/about' className=''>
+									<p className=''>Categories</p>
+								</Link>
+            </div>
             <input type="search" name="search" className='feature input-field' placeholder="search for anything" />
             <div className='feature'>Udemy Business</div>
             <div className='feature'>Teach on Udemy</div>

@@ -12,18 +12,35 @@ import Amazon from './pages/amazon-aws';
 import Goal from './pages/goal';
 import Categray from './top catageray/top-categray';
 import Detail from './top catageray/detail';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './home';
+import About from './about';
+import Layout from './top catageray/Layout';
+
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Banner />
-      <Python />
-      <Goal />
-      <Categray />
-      <Detail />
-      <Footer />
-    </div>
+    <>
+    <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Layout />} >
+            <Route index element={<Home />} />
+            <Route path='about' element={<About />} />
+            {/* <Route path='contact' element={<Contact />} />
+            <Route path='product' element={<OurStore />} /> */}
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </>
+    // <div className="App">
+    //   <Navbar />
+    //   <Banner />
+    //   <Python />
+    //   <Goal />
+    //   <Categray />
+    //   <Detail />
+    //   <Footer />
+    // </div>
   );
 }
 
