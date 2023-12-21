@@ -46,18 +46,23 @@ export default function Navbar(props) {
         <AppBar>
           <Toolbar>
             <Typography variant="h6" component="div">
-              <img src={logo} alt='logo' style={{ width: "100px" }} />
+              <Link to='/' className='text-text-decoration-none text-white'>
+                <img src={logo} alt='logo' style={{ width: "100px" }} />
+              </Link>
             </Typography>
-            <div className='feature'>
-            <Link to='/about' className=''>
-									<p className=''>Categories</p>
-								</Link>
-            </div>
+            <div className='feature'>Categories</div>
             <input type="search" name="search" className='feature input-field' placeholder="search for anything" />
-            <div className='feature'>Udemy Business</div>
-            <div className='feature'>Teach on Udemy</div>
+            <div className='feature mt-3'>
+              <Link to='/about' className='text-text-decoration-none text-white'>
+                <p className=''>Udemy Business</p>
+              </Link>
+            </div>
+            <div className='feature mt-3'>
+            <Link to='/teachudemy' className='text-text-decoration-none text-white'>
+                <p className=''>Teach on Udemy</p>
+              </Link></div>
             <div className='feature'>My learning</div>
-            <div className='feature'><FontAwesomeIcon icon="fa-solid fa-heart" style={{color: "#fff",}} />
+            <div className='feature'><FontAwesomeIcon icon="fa-solid fa-heart" style={{ color: "#fff", }} />
             </div>
 
           </Toolbar>

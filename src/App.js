@@ -15,6 +15,7 @@ import Detail from './top catageray/detail';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './home';
 import About from './about';
+import Teachudemy from './teachudemy';
 import Layout from './top catageray/Layout';
 
 
@@ -26,6 +27,7 @@ function App() {
           <Route path='/' element={<Layout />} >
             <Route index element={<Home />} />
             <Route path='about' element={<About />} />
+            <Route path='teachudemy' element={<Teachudemy />} />
             {/* <Route path='contact' element={<Contact />} />
             <Route path='product' element={<OurStore />} /> */}
           </Route>

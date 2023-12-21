@@ -140,7 +140,8 @@ body::-webkit-scrollbar {
   transform: scale(1.2);
   zoom: 1;
 }
-.top{
+
+.top {
   width: 100%;
   /* background-color: red; */
 }
@@ -149,18 +150,94 @@ body::-webkit-scrollbar {
   width: 40%;
   border-radius: 50%;
 }
-.detail-text{
+
+.detail-text {
   width: 60%;
   font-size: medium;
 }
-.detail-img{
+
+.detail-img {
   width: 40%;
   text-align: center;
   font-size: small;
 }
-.w-65{
+
+.w-65 {
   width: 65%;
 }
-.w-30{
+
+.w-30 {
   width: 30%;
+}
+
+
+
+
+/* about */
+.name {
+  width: 43%;
+  margin: 30px 0px 20px 20px;
+  height: 40px;
+}
+
+.email {
+  width: 90%;
+  margin: 10px 0px 20px 20px;
+  height: 40px;
+}
+
+.No {
+  width: 90%;
+  margin: 10px 0px 20px 20px;
+  height: 40px;
+}
+
+.select1 {
+  width: 90%;
+  margin: 10px 0px 20px 20px;
+  height: 40px;
+}
+
+.company-name {
+  width: 90%;
+  margin: 10px 0px 20px 20px;
+  height: 40px;
+}
+
+.select2 {
+  width: 43%;
+  margin: 30px 0px 20px 20px;
+  height: 40px;
+}
+.organization{
+  width: 90%;
+  margin: 10px 0px 20px 20px;
+  height: 90px;
+}
+
+
+
+
+/* teachudemy */
+
+.teaching{
+  width: 25%;
+  margin-left: 10px;
+  text-align: center;
+}
+.bg-purpule{
+  background-color: #5624d0;
+}
+.info{
+  width: 17%;
+  color: white;
+  text-align: center;
+  margin: 2rem 0px 1rem 0px;
+}
+.react-tech{
+  width: 60%;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 2rem;
+  padding: 30px 0px 10px 20px;
 }
