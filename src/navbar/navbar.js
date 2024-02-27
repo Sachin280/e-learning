@@ -70,7 +70,7 @@ export default function Navbar(props) {
         </HideOnScroll>
         <Toolbar />
       </React.Fragment>
-      <div>
+      {/* <div>
         <div className='Categories'>
           <ul className='d-flex list-unstyled ms-4'>
             <li className='ms-4 border-nav'>
@@ -115,7 +115,7 @@ export default function Navbar(props) {
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
     </>
 
 
