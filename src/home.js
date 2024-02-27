@@ -15,13 +15,11 @@ import Detail from './top catageray/detail';
 export default function home() {
   return (
       <div className="Home">
-        {/* <Navbar /> */}
         <Banner />
         <Python />
         <Goal />
         <Categray />
         <Detail />
-        {/* <Footer /> */}
       </div>
   
   )

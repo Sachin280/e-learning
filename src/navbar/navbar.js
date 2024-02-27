@@ -40,47 +40,86 @@ HideOnScroll.propTypes = {
 
 export default function Navbar(props) {
   return (
-    <React.Fragment>
-      <CssBaseline />
-      <HideOnScroll {...props}>
-        <AppBar>
-          <Toolbar>
-            <Typography variant="h6" component="div">
-              <Link to='/' className='text-text-decoration-none text-white'>
-                <img src={logo} alt='logo' style={{ width: "100px" }} />
-              </Link>
-            </Typography>
-            <div className='feature'>Categories</div>
-            <input type="search" name="search" className='feature input-field' placeholder="search for anything" />
-            <div className='feature mt-3'>
-              <Link to='/about' className='text-text-decoration-none text-white'>
-                <p className=''>Udemy Business</p>
-              </Link>
-            </div>
-            <div className='feature mt-3'>
-            <Link to='/teachudemy' className='text-text-decoration-none text-white'>
-                <p className=''>Teach on Udemy</p>
-              </Link></div>
-            <div className='feature'>My learning</div>
-            <div className='feature'><FontAwesomeIcon icon="fa-solid fa-heart" style={{ color: "#fff", }} />
-            </div>
+    <>
+      <React.Fragment>
+        <CssBaseline />
+        <HideOnScroll {...props}>
+          <AppBar>
+            <Toolbar>
+              <Typography variant="h6" component="div">
+                <Link to='/' className='text-text-decoration-none text-white'>
+                  <img src={logo} alt='logo' style={{ width: "100px" }} />
+                </Link>
+              </Typography>
+              <div className='feature'>Categories</div>
+              <div className='feature mt-3'>
+                <Link to='/about' className='text-text-decoration-none text-white'>
+                  <p className=''>Udemy Business</p>
+                </Link>
+              </div>
+              <div className='feature mt-3'>
+                <Link to='/teachudemy' className='text-text-decoration-none text-white'>
+                  <p className=''>Teach on Udemy</p>
+                </Link></div>
+              <div className='feature'>My learning</div>
+              <div className='feature'><FontAwesomeIcon icon="fa-solid fa-heart" style={{ color: "#fff", }} />
+              </div>
 
-          </Toolbar>
-        </AppBar>
-      </HideOnScroll>
-      <Toolbar />
-      {/* <Container>
-        <Box sx={{ my: 2 }}>
-          {[...new Array(12)]
-            .map(
-              () => `Cras mattis consectetur purus sit amet fermentum.
-Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-Praesent commodo cursus magna, vel scelerisque nisl consectetur et.`,
-            )
-            .join('\n')}
-        </Box>
-      </Container> */}
-    </React.Fragment>
+            </Toolbar>
+          </AppBar>
+        </HideOnScroll>
+        <Toolbar />
+      </React.Fragment>
+      <div>
+        <div className='Categories'>
+          <ul className='d-flex list-unstyled ms-4'>
+            <li className='ms-4 border-nav'>
+              <Link to='/Watch' className='text-text-decoration-none text-white'>
+                <p className=''><b>Watch</b></p>
+              </Link>
+            </li>
+            <li className='ms-4 border-nav'>
+              <Link to='/Fashion' className='text-text-decoration-none text-white'>
+                <p className=''><b>Fashion</b></p>
+              </Link>
+            </li>
+            <li className='ms-4 border-nav'>
+              <Link to='/Electronic' className='text-text-decoration-none text-white'>
+                <p className=''><b>Electronic</b></p>
+              </Link>
+            </li>
+            <li className='ms-4 border-nav'>
+              <Link to='/Led' className='text-text-decoration-none text-white'>
+                <p className=''><b>Led</b></p>
+              </Link>
+            </li>
+            <li className='ms-4 border-nav'>
+              <Link to='/NewRealese' className='text-text-decoration-none text-white'>
+                <p className=''><b>New Realese</b></p>
+              </Link>
+            </li>
+            <li className='ms-4 border-nav'>
+              <Link to='/Homekitchen' className='text-text-decoration-none text-white'>
+                <p className=''><b>Home & kitchen</b></p>
+              </Link>
+            </li>
+            <li className='ms-4 border-nav'>
+              <Link to='/Toys' className='text-text-decoration-none text-white'>
+                <p className=''><b>Toys</b></p>
+              </Link>
+            </li>
+            <li className='ms-4 border-nav'>
+              <Link to='/shoes' className='text-text-decoration-none text-white'>
+                <p className=''><b>shoes</b></p>
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </>
+
+
+
+
   );
 }
